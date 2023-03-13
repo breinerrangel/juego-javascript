@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>juego</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="titulo">
+      <h1>Piedra</h1>
+      <h1>Papel</h1>
+      <h1>Tijera</h1>
+      <div class="contenedor-boton-jugar">
+        <button id="jugar">jugar</button>
+      </div>
+    
+    </div>
+    <div class="contenedor">
+     
+      
+      <div class="img">
+        <img src="https://cdn-icons-png.flaticon.com/512/31/31598.png" alt="" height="200px" style="rotate: 180deg;" class="mano1">
+        <img src="https://cdn-icons-png.flaticon.com/512/31/31598.png" alt="" height="200px" class="mano2" >
+      </div>
+     
+      <div class="contenedor-opciones">
+
+      <button id="papel">papel</button>
+      <button id="piedra">piedra</button>
+      <button id="tijera">tijera</button>
+      </div>
+      <div class="contadores">
+        <div class="indicador">
+          <h3>jugado</h3>
+          <h3>maquina</h3>
+        </div>
+        <div class="numero">
+      
+        <div id="jugador"> </div>
+        <div id="maquina"></div>
+      </div>
+      </div>
+    </div>
+<script src="./main.js"></script>
+ 
+  </body>
+</html>
