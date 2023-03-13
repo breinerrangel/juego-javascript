@@ -55,6 +55,8 @@ tijera.addEventListener("click",function(){
     contador=0
     jugador.innerHTML=""
     maquina.innerHTML=""
+    jugadorcontado=0
+    maquinacontador=0
     document.querySelector(".contenedor-boton-jugar").style.display="felx"
 
   }
@@ -87,6 +89,8 @@ piedra.addEventListener("click",function(){
     contador=0
     jugador.innerHTML=""
     maquina.innerHTML=""
+    jugadorcontado=0
+    maquinacontador=0
     document.querySelector(".contenedor-boton-jugar").style.display="flex"
 
 
@@ -121,6 +125,8 @@ papel.addEventListener("click",function(){
   jugador.innerHTML=""
   maquina.innerHTML=""
   contador=0
+  jugadorcontado=0
+  maquinacontador=0
   document.querySelector(".contenedor-boton-jugar").style.display="flex"
 
 
